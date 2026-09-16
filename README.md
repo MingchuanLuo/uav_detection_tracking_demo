@@ -1,6 +1,15 @@
 # UAV Detection and Tracking Demo
 
-[中文说明](README.zh-CN.md) | [GitHub publishing guide](GITHUB_PUBLISHING.md)
+[DE](README.de.md) | [CN](README.zh-CN.md) | [GitHub publishing guide](GITHUB_PUBLISHING.md)
+
+## Demo videos
+
+- [Download the full detection result](https://github.com/MingchuanLuo/uav_detection_tracking_demo/releases/latest/download/Quadcopter_detection.mp4)
+- [Download the full ByteTrack result](https://github.com/MingchuanLuo/uav_detection_tracking_demo/releases/latest/download/Quadcopter_tracking.mp4)
+- [View all release assets](https://github.com/MingchuanLuo/uav_detection_tracking_demo/releases/latest)
+
+Because this repository is private, these links require an authenticated GitHub
+account that has been granted access to the repository.
 
 This repository is a compact but complete computer-vision demo that takes one
 licensed UAV video through data selection, manual annotation, chronological

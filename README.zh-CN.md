@@ -1,6 +1,14 @@
 # 无人机检测与跟踪 Demo
 
-[English README](README.md) | [GitHub 发布指南](GITHUB_PUBLISHING.md)
+[EN](README.md) | [DE](README.de.md) | [GitHub 发布指南](GITHUB_PUBLISHING.md)
+
+## Demo 视频
+
+- [下载完整检测视频](https://github.com/MingchuanLuo/uav_detection_tracking_demo/releases/latest/download/Quadcopter_detection.mp4)
+- [下载完整 ByteTrack 跟踪视频](https://github.com/MingchuanLuo/uav_detection_tracking_demo/releases/latest/download/Quadcopter_tracking.mp4)
+- [查看全部 Release 文件](https://github.com/MingchuanLuo/uav_detection_tracking_demo/releases/latest)
+
+由于本仓库为 Private，这些链接仅对已登录并被授予仓库访问权限的 GitHub 用户有效。
 
 这是一个小型但完整的计算机视觉项目：从公开视频开始，经过抽帧、人工筛选、
 CVAT 标注、按时间切分数据集、YOLO11n 迁移学习、验证与独立测试，再到完整视频
