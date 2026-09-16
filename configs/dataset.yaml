@@ -1,0 +1,7 @@
+# Paths resolve from this YAML file because `path` is omitted.
+train: ../data/yolo_dataset/images/train
+val: ../data/yolo_dataset/images/val
+test: ../data/yolo_dataset/images/test
+
+names:
+  0: drone

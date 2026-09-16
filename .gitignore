@@ -1,0 +1,30 @@
+.venv/
+.tmp/
+.ultralytics_config/
+Ultralytics/
+__pycache__/
+*.py[cod]
+*.cache
+.pytest_cache/
+
+# Generated Phase A artifacts
+data/extracted_frames/*.jpg
+data/selected_frames/*.jpg
+data/rejected_frames/*.jpg
+outputs/previews/*.jpg
+outputs/previews/**/*.jpg
+outputs/previews/**/video_metadata.json
+
+# Keep one representative result image for the GitHub project page.
+!outputs/previews/tracking_video_check/preview_08_frame_001031_time_041.200s.jpg
+
+# Later generated datasets/models/videos
+data/yolo_dataset/
+outputs/detections/
+outputs/tracking/
+outputs/models/
+outputs/plots/
+outputs/metrics/
+
+# Distribute the original and generated videos as release assets, not Git blobs.
+video/*.webm
